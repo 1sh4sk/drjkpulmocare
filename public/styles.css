@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    color: #6A6A6A;
+    text-align: justify;
+}
+
+p{
+    font-weight: 100;
+    line-height: 1.7;
+}
+
+.content{
+    margin: 60px 100px;
+}
+
+.heading{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #0093DD;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px !important;
+}
+
+.appointment-btn{
+    background-color: #6CBE46;
+    border: #6CBE46;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 50px !important;
+}
+
+/* navbar start  */
+
+.navbar{
+    width: 100vw;
+    padding: 0 60px;
+    background: #BBEDD4 !important;
+    position: fixed;
+}
+
+.nav-item{
+    margin: 0 8px;
+}
+
+.nav-link{
+    color: #0093DD ;
+    font-size: 16px;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: #0093DD !important;
+    padding-bottom: 3px;
+    border-bottom: #0093DD 2px solid;
+}
+
+.btn{
+    background-color: #6CBE46;
+    border: #6CBE46;
+    font-size: 18px;
+}
+
+/* navbar end  */
+
+
+/* landing page start  */
+.landing-page{
+    width: 100vw;
+    background-image: url("./images/landing-img.png");
+    background-repeat: no-repeat;
+    background-size: 1706px auto;
+    text-transform: capitalize;
+    padding: 200px 700px 320px 95px;
+}
+
+.landing-page h1{
+    font-family: 'Red Hat Display', sans-serif; 
+    color: #2a2a2a;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.landing-page p{
+    padding: 10px 300px 0 0;
+    letter-spacing: 2%;
+    font-weight: 400;
+}
+/* landing page end  */
+
+/* about specialist home section start  */
+
+.about-img{
+    height: 550px;
+    width: 550px;
+    border:#6CBE46 5px solid;
+    border-radius: 100%;
+    display: block;
+    margin: 20px auto 0 auto ;
+}
+
+.about-content h1{
+    color: #2a2a2a;
+    font-size: 40px;
+}
+
+.about-content h2{
+    color: #6CBE46;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.about-content div{
+    text-align: center;
+}
+/* about specialist home section end  */
+
+
+/* opd hours and visiting consultant section start */
+
+hr{
+    width: 560px;
+}
+
+.timing-heading{
+    text-align: left;
+}
+
+.timing-para{
+    color: #6CBE46;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin-top: -15px;
+}
+
+.timings{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+
+.timings-content{
+    width: 300px;
+}
+
+/* opd hours and visiting consultant section end  */
+@media  screen and (max-width: 600px) {
+    
+}
