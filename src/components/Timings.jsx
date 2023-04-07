@@ -7,7 +7,7 @@ function Timings() {
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-sm-12">
                         <h1 className="heading timing-heading">OPD Hours</h1>
-                        <p className="timing-para">At Dr. Adhi Polyclinic, Virudhachalam</p>
+                        <p className="timing-para clinic-name">At Dr. Adhi Polyclinic, Virudhachalam</p>
                         <div className="timings">
                             <p>Monday</p><p>9:00 AM - 2:00 PM</p>
                         </div>
@@ -35,9 +35,9 @@ function Timings() {
                     </div>
 
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                        <h1 className="heading timing-heading">Visiting Consultant Hours</h1>
+                        <h1 className="heading timing-heading vch">Visiting Consultant Hours</h1>
 
-                        <div className="timings">
+                        <div className="timings timings-vch">
                             <p>Monday</p>
                             <div className="timings-content">
                                 <p>2:00 PM - 6:00 PM</p>

@@ -80,12 +80,17 @@ p{
 /* landing page start  */
 .landing-page{
     width: 100vw;
+    height: 900px;
     background-image: url("./images/landing-img.png");
     background-repeat: no-repeat;
     background-size: 1706px auto;
     text-transform: capitalize;
-    padding: 200px 700px 320px 95px;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+    margin: 0;
 }
+
 
 .landing-page h1{
     font-family: 'Red Hat Display', sans-serif; 
@@ -113,6 +118,7 @@ p{
 }
 
 .about-content h1{
+    font-family: 'Red Hat Display', sans-serif; 
     color: #2a2a2a;
     font-size: 40px;
 }
@@ -161,15 +167,230 @@ hr{
 
 /* media query for mobile start  */
 @media  screen and (max-width: 600px) {
-    
+    html{
+        font-size: 16px;
+    }
+
+    body{
+        text-align: justify;
+    }
+
+    .heading{
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content{
+        margin: 50px 40px ;
+    }
+
+
+    /* navbar start  */
+    .navbar{
+        padding: 0 20px;
+    }
+
+   .navbar-nav{
+    padding: 10px 0 40px 0;
+   }
+
+    .navbar-brand img{
+        width: 115px;
+        height: 55px;
+    }
+    /* navbar end  */
+
+    /* landing page start  */
+
+    .landing-page{
+        padding: 0 30px;
+        height: 80vh;
+        background-position: -800px -100px;
+        text-align: center;
+
+    }
+
+    .landing-page h1{
+        font-size: 40px;
+    }
+
+    .landing-page p{
+        padding: 0;
+    }
+
+   /* landing page end  */
+
+   /* about specialist home section start  */
+
+   .about-img{
+    width: 300px;
+    height:300px;
+   }
+
+   .about-content{
+    margin-top: 30px;
+   
+   }
+
+   .about-content h1{
+    font-size: 30px;
+    text-align: center;
+   }
+
+   .about-content h2{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300px;
+   }
+
+   .about-btn{
+    margin-top: 35px;
+   }
+   /* about specialist home section end  */
+
+   /* timings start  */
+
+   hr{
+    width: 330px;
+   }
+
+   .timings{
+    margin-right: 0;
+   }
+
+   .timings-content{
+    width: 200px;
+   }
+
+   .clinic-name{
+    text-align: center;
+    margin-top:35px;
+   }
+
+   .vch{
+    margin-top: 35px;
+   }
+   /* timings end  */
+
+
+
 }
 
 /* media query for mobile end  */
 
 /* media query for Tablet start  */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width:912px) {
+    html{
+        font-size: 18px;
+    }
 
+    body{
+        text-align: justify;
+    }
+
+    .heading{
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content{
+        margin: 50px 40px ;
+    }
+
+
+    /* navbar start  */
+    .navbar{
+        padding: 0 20px;
+    }
+
+   .navbar-nav{
+    padding: 10px 0 40px 0;
+   }
+
+    .navbar-brand img{
+        width: 135px;
+        height: 65px;
+    }
+    /* navbar end  */
+
+    /* landing page start  */
+
+    .landing-page{
+        padding: 0 30px;
+        height: 60vh;
+        background-position: -500px -60px;
+        text-align: center;
+
+    }
+
+    .landing-page h1{
+        font-size: 65px;
+    }
+
+    .landing-page p{
+        padding: 0;
+    }
+
+   /* landing page end  */
+
+   /* about specialist home section start  */
+
+   .about-img{
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+   }
+
+   .about-content{
+    margin-top: 30px;
+   
+   }
+
+   .about-content h1{
+    font-size: 30px;
+    text-align: center;
+   }
+
+   .about-content h2{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300px;
+   }
+
+   .about-btn{
+    margin-top: 35px;
+   }
+   /* about specialist home section end  */
+
+   /* timings start  */
+
+   hr{
+    width: 330px;
+   }
+
+   .timings{
+    margin-right: 0;
+   }
+
+   .timings-content{
+    width: 200px;
+   }
+
+   .clinic-name{
+    text-align: center;
+    margin-top:35px;
+   }
+
+   .timings-vch{
+    margin-top:75px;
+   }
+
+  
+
+   /* timings end  */
 }
 
 /* media query for Tablet end  */
