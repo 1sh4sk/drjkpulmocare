@@ -17,7 +17,7 @@ body{
     text-align: justify;
 }
 
-p{
+p, .aoe-items{
     font-weight: 100;
     line-height: 1.7;
 }
@@ -165,6 +165,71 @@ hr{
 
 /* opd hours and visiting consultant section end  */
 
+/* AboutSpecialist page start  */
+.about-container{
+    width:100vw;
+    height: 100vh;
+    background-image: url("./images/doctor-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.background-container{
+    width: 1300px;
+    height: 500px;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 300px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.background-container h1{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;;
+    color: #ffffff;
+    font-size: 60px;
+
+}
+
+.background-container p{
+    color: #DADADA;
+}
+
+.aoe-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aoe-items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aoe-items li{
+    margin-bottom: 30px;
+}
+
+
+.icon{
+    background: url("./images/lung-icon2.png");
+    display: block;
+    height:40px;
+    width: 40px;
+    float: left;
+}
+
+
+
+/* AboutSpecialist page start  */
+
 /* media query for mobile start  */
 @media  screen and (max-width: 600px) {
     html{
@@ -273,7 +338,37 @@ hr{
    }
    /* timings end  */
 
+   /* aboutapecialist page starts  */
+   .about-container{
+    height: 70vh;
+   }
 
+   .about-container h1{
+    font-size: 35px;
+   }
+
+   .background-container{
+    width:350px;
+    height: 400px;
+    padding: 20px;
+   }
+
+   .aoe-container{
+    flex-direction: column;
+    font-size: 14px;
+   }
+
+   .aoe-items li{
+    margin-bottom: 15px;
+   }
+
+   .icon{
+    background:url("./images/lungs-icon.png");
+    height:20px;
+    width:20px;
+   }
+   /* aboutapecialist page ends  */
+   
 
 }
 
@@ -387,10 +482,19 @@ hr{
    .timings-vch{
     margin-top:75px;
    }
-
-  
-
    /* timings end  */
+
+
+   /* aboutspecialist page starts  */
+   .about-container{
+    height: 60vh;
+   }
+
+   .background-container{
+    width: 800px;
+    padding: 100px;;
+   }
+   /* aboutspecialist page starts  */
 }
 
 /* media query for Tablet end  */
