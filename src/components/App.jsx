@@ -5,8 +5,7 @@ import { BrowserRouter as Router,
 
 import Home from './Home';
 import AboutSpecialist from './AboutSpecialist';
-import ReachUs from './ReachUs';
-import Procedures from './Procedures';
+
 
 
 function App() {
@@ -18,8 +17,8 @@ function App() {
         
           <Route path='/' element={<Home />}/>
           <Route path="/AboutSpecialist" element={<AboutSpecialist />} />
-          <Route path="/Procedures" element={<Procedures />} />
-          <Route path="/ReachUs" element={<ReachUs />} />
+          
+        
           
           
         </Routes>
