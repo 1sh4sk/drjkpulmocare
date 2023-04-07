@@ -158,6 +158,18 @@ hr{
 }
 
 /* opd hours and visiting consultant section end  */
+
+/* media query for mobile start  */
 @media  screen and (max-width: 600px) {
     
 }
+
+/* media query for mobile end  */
+
+/* media query for Tablet start  */
+
+@media only screen and (min-width: 600px) {
+
+}
+
+/* media query for Tablet end  */
