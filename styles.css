@@ -1,0 +1,910 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    color: #6A6A6A;
+    text-align: justify;
+}
+
+p, .aoe-items{
+    font-weight: 100;
+    line-height: 1.7;
+}
+
+.content{
+    margin: 0  100px 60px 100px;
+}
+
+h1, h2, h4, h5 {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #0093DD;
+    margin-bottom: 50px;
+    letter-spacing: 1.5px !important;
+}
+
+.appointment-btn{
+    background-color: #6CBE46;
+    border: #6CBE46;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px 50px !important;
+    margin-top: 20px;
+}
+
+/* navbar start  */
+
+.navbar{
+    width: 100vw;
+    padding: 0 60px;
+    background: #BBEDD4 !important;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-item{
+    margin: 0 8px;
+}
+
+.nav-link{
+    color: #0093DD ;
+    font-size: 16px;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: #0093DD !important;
+    padding-bottom: 3px;
+    border-bottom: #0093DD 2px solid;
+}
+
+.btn{
+    background-color: #6CBE46;
+    border: #6CBE46;
+    font-size: 18px;
+}
+
+/* navbar end  */
+
+
+/* landing page start  */
+.landing-page{
+    width: 100vw;
+    height: 900px;
+    background-image: url("./images/landing-img.webp");
+    background-repeat: no-repeat;
+    background-size: 1706px auto;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+    margin: 0;
+}
+
+
+.landing-page h1, .card-details-h1{
+    font-family: 'Red Hat Display', sans-serif; 
+    color: #2a2a2a;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.landing-page p{
+    padding: 10px 300px 0 0;
+    letter-spacing: 2%;
+    font-weight: 400;
+}
+/* landing page end  */
+
+/* about specialist home section start  */
+
+.about-img{
+    height: 550px;
+    width: 550px;
+    border:#6CBE46 5px solid;
+    border-radius: 100%;
+    display: block;
+    margin: 20px auto 0 auto ;
+}
+
+.about-content h1{
+    font-family: 'Red Hat Display', sans-serif; 
+    color: #2a2a2a;
+    font-size: 40px;
+}
+
+.about-content h2{
+    color: #6CBE46;
+    font-size: 24px;
+    font-weight: 400px;
+}
+
+.about-content div{
+    text-align: center;
+}
+/* about specialist home section end  */
+
+
+/* opd hours and visiting consultant section start */
+
+hr{
+    width: 560px;
+}
+
+.timing-heading{
+    text-align: left;
+}
+
+.timing-para{
+    color: #6CBE46;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    line-height: 1.2rem;
+    margin-top: -15px;
+}
+
+.timings{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+
+.timings-content{
+    width: 300px;
+}
+
+/* opd hours and visiting consultant section end  */
+
+/* AboutSpecialist page start  */
+.about-container{
+    width:100vw;
+    height: 100vh;
+    background-image: url("./images/doctor-img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.background-container{
+    width: 1300px;
+    height: 500px;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 300px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.background-container h1{
+    
+    font-weight: bold;;
+    color: #ffffff;
+    font-size: 60px;
+
+}
+
+.background-container p{
+    color: #DADADA;
+}
+
+.aoe-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aoe-items{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aoe-items li{
+    margin-bottom: 30px;
+}
+
+
+.icon{
+    background: url("./images/lung-icon2.webp");
+    display: block;
+    height:40px;
+    width: 40px;
+    float: left;
+}
+
+
+/* Procedures section start  */
+
+.treatmentContainer{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.card-details{
+    width: 1000px;
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:  rgb(182, 236, 210, 0.4);
+    padding: 100px;
+    margin-bottom: 200px;
+    position: relative;
+    top: 170px;
+    left: 250px;
+    border: #BBEDD4 2px solid;
+    border-radius: 15px;
+}
+
+.card-details h1{
+    color: #2a2a2a;
+    margin-bottom: 30px;
+    font-size: 36px;;
+}
+
+.card-details p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* card start  */
+
+.cardCover{
+    width: 280px;
+    height: 300px;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-color: rgb(182, 236, 210, 0.2);
+    margin-bottom: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.cardCover p, .descContainer{
+    font-size: 18px;
+    font-weight: 600;   
+    margin-bottom: 0;
+}
+    
+.descContainer{
+    visibility: hidden;
+}
+
+.cardCover:hover{
+    box-shadow: 7px 6px 11px 1px rgb(0 0 0 / 15%);
+}
+
+.cardCover:hover .descContainer{
+    visibility: visible;
+    transition: opacity 0.3s;
+    opacity: 1;
+}
+
+.cardImageContainer{
+    width: 290px;
+    margin: -20px;
+}
+
+.cardImageContainer img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.textContainer{
+    padding: 70px 20px;
+}
+/* card end  */
+
+
+/* Procedures section end  */
+
+/* supportive care start  */
+/* .carousal{
+    width: 1500px;
+    height: 500px;
+} */
+
+.carousel{
+    width: 80vw;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.carousel-img{
+    object-fit: center;
+}
+
+.carousel-indicators button{
+    height: 10px !important;
+    width:10px !important;
+    border-radius: 50%;
+}
+
+.carousel-item{
+    height: 500px;
+    bottom: 2rem; 
+} 
+
+.carousel-bg{
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    height: 250px;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.carousel-bg h1{
+   
+    font-size: 32px ;
+}
+
+/* supportive care end  */
+
+/* Reach us start  */
+.box{
+    margin-bottom: 15px;
+    display: flex;
+    
+}
+
+.text h4{
+    color: #6CBE46;
+    font-weight: 900px;
+    font-size: 32px;
+    margin: 0;
+}
+
+.text p{
+    margin-bottom:0;
+    line-height: 1.5rem;
+    color: #2a2a2a;
+}
+
+.Icon{
+    width:70px;
+}
+
+.fa-icon{
+    color: #6CBE46;
+    display:inline-block;
+    margin-top: 25px;
+}
+
+.Map iframe{
+    width: 500px;
+    height: 400px;
+}
+
+/* Reach us End  */
+
+
+/* footer start  */
+.Links {
+    width: 100vw;
+    height: 450px;
+    background: #0093dd;
+    padding: 70px 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Section {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .Section p{
+    margin-bottom: 10px;
+  }
+
+
+  .Footer {
+    width: 100vw;
+    height: 50px;
+    background: black;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+  }
+
+
+  .fa-heart {
+    color: #f00;
+  }
+  
+/* footer end  */
+
+
+/* media query for mobile start  */
+@media  screen and (max-width: 600px) {
+    html{
+        font-size: 16px;
+    }
+
+    body{
+        text-align: justify;
+    }
+
+    .heading{
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content{
+        margin: 50px 40px ;
+    }
+
+
+    /* navbar start  */
+    .navbar{
+        padding: 0 20px;
+    }
+
+   .navbar-nav{
+    padding: 10px 0 40px 0;
+   }
+
+    .navbar-brand img{
+        width: 115px;
+        height: 55px;
+    }
+    /* navbar end  */
+
+    /* landing page start  */
+
+    .landing-page{
+        padding: 0 30px;
+        height: 80vh;
+        background-position: -800px -100px;
+        text-align: center;
+
+    }
+
+    .landing-page h1{
+        font-size: 40px;
+    }
+
+    .landing-page p{
+        padding: 0;
+    }
+
+   /* landing page end  */
+
+   /* about specialist home section start  */
+
+   .about-img{
+    width: 300px;
+    height:300px;
+   }
+
+   .about-content{
+    margin-top: 30px;
+   
+   }
+
+   .about-content h1{
+    font-size: 30px;
+    text-align: center;
+   }
+
+   .about-content h2{
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300px;
+   }
+
+   .about-btn{
+    margin-top: 35px;
+   }
+   /* about specialist home section end  */
+
+   /* timings start  */
+
+   hr{
+    width: 330px;
+   }
+
+   .timings{
+    margin-right: 0;
+   }
+
+   .timings-content{
+    width: 200px;
+   }
+
+   .clinic-name{
+    text-align: center;
+    margin-top:35px;
+   }
+
+   .vch{
+    margin-top: 35px;
+   }
+   /* timings end  */
+
+   /* aboutapecialist page starts  */
+   .about-container{
+    height: 70vh;
+   }
+
+   .about-container h1{
+    font-size: 35px;
+   }
+
+   .background-container{
+    width:350px;
+    height: 400px;
+    padding: 20px;
+   }
+
+   .aoe-container{
+    flex-direction: column;
+    font-size: 14px;
+   }
+
+   .aoe-items li{
+    margin-bottom: 15px;
+   }
+
+   .icon{
+    background:url("./images/lungs-icon.webp");
+    height:20px;
+    width:20px;
+   }
+   /* aboutapecialist page ends  */
+
+   /* procedures start / */
+
+   .treatmentContainer{
+    margin:0;
+   }
+
+   .cardCover{
+    width: 130px;
+    height: 180px;
+    margin: 10px 20px;
+}
+
+.cardCover p, .descContainer{
+    font-size: 12px;
+    font-weight: 500;   
+    margin-bottom: 0;
+} 
+
+.cardImageContainer{
+    margin: -10px;
+}
+
+.cardImageContainer img{
+    /* width: 200px; */
+    height: 100px;
+}
+
+.textContainer{
+    padding: 35px 10px;
+}
+   /* procedures end  */
+
+   /* carousel start  */
+   .carousel{
+    height: 250px;
+   }
+
+   .carousel-item{
+    height: 250px;
+    bottom: 0rem; 
+    }
+
+    .carousel-bg{
+        height:150px
+    }
+
+    .carousel-bg h1{
+        font-size: 24px ;
+    }
+
+    .carousel-bg p{
+        font-size: 14px;
+    }
+    
+   /* carousel end  */
+
+   /* reachus start  */
+   .box{
+    margin-left: 30px;
+   }
+
+
+
+   .text h4{
+    font-size: 20px;
+   }
+
+   button.btn.btn-primary.btn-lg.appointment-btn {
+    margin-left: 25px;
+}
+
+   .Map iframe{
+    margin-top: 30px;
+    width: 80vw;
+    height: 300px;
+}
+
+   /* reachus end  */
+
+   /* footer starts  */
+
+   .Links{
+    height: 700px;
+    margin: 0;
+    text-align: center;
+   }
+
+   .Section {
+    font-size: 14px;
+  }
+  
+  .Section p{
+    margin-bottom: 6px;
+  }
+
+  .Footer p{
+    font-size: 10px;
+  }
+
+
+   /* footer ends  */
+   
+
+}
+
+/* media query for mobile end  */
+
+/* media query for Tablet start  */
+
+@media only screen and (min-width: 600px) and (max-width:912px) {
+    html{
+        font-size: 18px;
+    }
+
+    body{
+        text-align: justify;
+    }
+
+    .heading{
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content{
+        margin: 50px 40px ;
+    }
+
+
+    /* navbar start  */
+    .navbar{
+        padding: 0 20px;
+    }
+
+   .navbar-nav{
+    padding: 10px 0 40px 0;
+   }
+
+    .navbar-brand img{
+        width: 135px;
+        height: 65px;
+    }
+    /* navbar end  */
+
+    /* landing page start  */
+
+    .landing-page{
+        padding: 0 30px;
+        height: 60vh;
+        background-position: -500px -60px;
+        text-align: center;
+
+    }
+
+    .landing-page h1{
+        font-size: 65px;
+    }
+
+    .landing-page p{
+        padding: 0;
+    }
+
+   /* landing page end  */
+
+   /* about specialist home section start  */
+
+   .about-img{
+    width: 400px;
+    height: 400px;
+    margin-top: 60px;
+   }
+
+   .about-content{
+    margin-top: 30px;
+   
+   }
+
+   .about-content h1{
+    font-size: 30px;
+    text-align: center;
+   }
+
+   .about-content h2{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300px;
+   }
+
+   .about-btn{
+    margin-top: 35px;
+   }
+   /* about specialist home section end  */
+
+   /* timings start  */
+
+   hr{
+    width: 330px;
+   }
+
+   .timings{
+    margin-right: 0;
+   }
+
+   .timings-content{
+    width: 200px;
+   }
+
+   .clinic-name{
+    text-align: center;
+    margin-top:35px;
+   }
+
+   .timings-vch{
+    margin-top:75px;
+   }
+   /* timings end  */
+
+
+   /* aboutspecialist page starts  */
+   .about-container{
+    height: 60vh;
+   }
+
+   .background-container{
+    width: 800px;
+    padding: 100px;;
+   }
+   /* aboutspecialist page starts  */
+
+   /* procedures start / */
+
+   .treatmentContainer{
+    margin:0;
+   }
+
+   .cardCover{
+    width: 160px;
+    height: 200px;
+    margin: 10px 35px;
+}
+
+
+.cardImageContainer{
+    margin: -10px;
+}
+
+.cardImageContainer img{
+    height: 100px;
+}
+
+.textContainer{
+    padding: 35px 10px;
+}
+   /* procedures end  */
+
+   /* carousel start  */
+   .carousel{
+    height: 250px;
+   }
+
+   .carousel-item{
+    height: 250px;
+    bottom: 0rem; 
+    }
+
+    .carousel-bg{
+        height:150px
+    }
+
+    .carousel-bg h1{
+        font-size: 24px ;
+    }
+
+    .carousel-bg p{
+        font-size: 14px;
+    }
+    
+   /* carousel end  */
+
+   /* reachus start  */
+   .box{
+    margin-left: 30px;
+   }
+
+
+
+   .text h4{
+    font-size: 20px;
+   }
+
+   button.btn.btn-primary.btn-lg.appointment-btn {
+    margin-left: 25px;
+}
+
+   .Map iframe{
+    width: 380px;
+    height: 300px;
+}
+
+   /* reachus end  */
+
+   /* footer starts  */
+
+   .Links{
+    margin: 0;
+   }
+
+   .Section {
+    font-size: 14px;
+  }
+  
+  .Section p{
+    margin-bottom: 6px;
+  }
+
+  .Footer p{
+    font-size: 10px;
+  }
+
+
+   /* footer ends  */
+}
+
+/* media query for Tablet end  */
