@@ -7,8 +7,6 @@ function ReachUs() {
 
             <h1 className="heading">Reach Us</h1>
 
-
-
             <div className="row">
                 <div className=" Detailscol-lg-6 col-md-6 col-sm-12">
                     <div className="box">

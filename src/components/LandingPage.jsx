@@ -21,7 +21,7 @@ function LandingPage() {
                     </h1>
                     <div className="row">
                         <div className="col-md-6 col-sm-12">
-                            <img className="about-img" alt="Dr. Jayakumar" src="/images/doctor-img.png" />
+                            <img className="about-img" alt="Dr. Jayakumar" src="/images/doctor-img.webp" />
                         </div>
 
                         <div className="about-content col-md-6 col-sm-12">

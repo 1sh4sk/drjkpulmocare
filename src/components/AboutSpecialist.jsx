@@ -1,10 +1,9 @@
 import React from "react";
-import Header from "./Header";
 
 function AboutSpecialist() {
     return (
         <section>
-            <Header />
+            
             <div className="about-container">
                 <div className="background-container">
                     <h1>
