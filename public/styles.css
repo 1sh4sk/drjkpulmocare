@@ -26,8 +26,11 @@ p, .aoe-items{
     margin: 60px 100px;
 }
 
-.heading{
+h1, h2, h4, h5 {
     font-family: 'Red Hat Display', sans-serif;
+}
+
+.heading{
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -42,6 +45,7 @@ p, .aoe-items{
     font-size: 24px;
     font-weight: 700;
     padding: 15px 50px !important;
+    margin-top: 20px;
 }
 
 /* navbar start  */
@@ -51,6 +55,7 @@ p, .aoe-items{
     padding: 0 60px;
     background: #BBEDD4 !important;
     position: fixed;
+    z-index: 1;
 }
 
 .nav-item{
@@ -92,7 +97,7 @@ p, .aoe-items{
 }
 
 
-.landing-page h1{
+.landing-page h1, .card-details-h1{
     font-family: 'Red Hat Display', sans-serif; 
     color: #2a2a2a;
     font-size: 80px;
@@ -191,7 +196,7 @@ hr{
 }
 
 .background-container h1{
-    font-family: 'Red Hat Display', sans-serif;
+    
     font-weight: bold;;
     color: #ffffff;
     font-size: 60px;
@@ -227,8 +232,201 @@ hr{
 }
 
 
+/* Procedures section start  */
 
-/* AboutSpecialist page start  */
+.treatmentContainer{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.card-details{
+    width: 1000px;
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:  rgb(182, 236, 210, 0.4);
+    padding: 100px;
+    position: relative;
+    top: 150px;
+    left: 250px;
+    border: #BBEDD4 2px solid;
+    border-radius: 15px;
+}
+
+.card-details p{
+    text-align: center;
+}
+
+/* card start  */
+
+.cardCover{
+    width: 280px;
+    height: 300px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: rgb(182, 236, 210, 0.2);
+    margin-bottom: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.cardCover p, .descContainer{
+    font-size: 18px;
+    font-weight: 600;   
+    margin-bottom: 0;
+}
+    
+.descContainer{
+    visibility: hidden;
+}
+
+.cardCover:hover{
+    box-shadow: 7px 6px 11px 1px rgb(0 0 0 / 15%);
+}
+
+.cardCover:hover .descContainer{
+    visibility: visible;
+    transition: opacity 0.3s;
+    opacity: 1;
+}
+
+.cardImageContainer img{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.textContainer{
+    padding: 30px 20px;
+}
+/* card end  */
+
+
+/* Procedures section end  */
+
+/* supportive care start  */
+/* .carousal{
+    width: 1500px;
+    height: 500px;
+} */
+
+.carousel{
+    width: 80vw;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.carousel-indicators button{
+    height: 10px !important;
+    width:10px !important;
+    border-radius: 50%;
+}
+
+.carousel-item{
+    height: 500px;
+    bottom: 2rem; 
+} 
+
+.carousel-bg{
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    height: 250px;
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+.carousel-bg h1{
+   
+    font-size: 32px ;
+}
+
+/* supportive care end  */
+
+/* Reach us start  */
+.box{
+    margin-bottom: 15px;
+    display: flex;
+    
+}
+
+.text h4{
+    color: #6CBE46;
+    font-weight: 900px;
+    font-size: 32px;
+    margin: 0;
+}
+
+.text p{
+    margin-bottom:0;
+    line-height: 1.5rem;
+    color: #2a2a2a;
+}
+
+.Icon{
+    width:100px;
+}
+
+.fa-icon{
+    color: #6CBE46;
+    display:inline-block;
+    margin-top: 25px;
+}
+
+.Map iframe{
+    width: 500px;
+    height: 400px;
+}
+
+/* Reach us End  */
+
+
+/* footer start  */
+.Links {
+    width: 100vw;
+    height: 450px;
+    background: #0093dd;
+    padding: 70px 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .Section {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .Section p{
+    margin-bottom: 10px;
+  }
+
+
+  .Footer {
+    width: 100vw;
+    height: 50px;
+    background: black;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    padding: 15 px;
+  }
+
+
+  .fa-heart {
+    color: #f00;
+  }
+  
+/* footer end  */
+
 
 /* media query for mobile start  */
 @media  screen and (max-width: 600px) {

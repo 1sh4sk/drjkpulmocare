@@ -5,6 +5,8 @@ import { BrowserRouter as Router,
 
 import Home from './Home';
 import AboutSpecialist from './AboutSpecialist';
+import CardDetails from './CardDetails';
+import Procedures from './Procedures';
 
 
 
@@ -17,6 +19,8 @@ function App() {
         
           <Route path='/' element={<Home />}/>
           <Route path="/AboutSpecialist" element={<AboutSpecialist />} />
+          <Route path="/procedures" element={<Procedures />} />
+          <Route path="/CardDetails" element={<CardDetails />} />
           
         
           
